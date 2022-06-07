@@ -10,11 +10,7 @@ public class Ejercicio13 {
     public static void main(String[] args) {
 
 
-
-    Messages msg = Messages.getInstance();
-    Date firstDate = new Date();
-
-    Date newDate = Calendar.getInstance().getTime();
+        Date newDate = Calendar.getInstance().getTime();
     SimpleDateFormat setFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
     String formatDate = setFormat.format(newDate);
 
